@@ -1,0 +1,11 @@
+{
+  "name": "laving",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lavingbutton.js",
+  "scripts": {
+    "test": "node lavingbutton.js"
+  },
+  "author": "laving",
+  "license": "ISC"
+}
