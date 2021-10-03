@@ -5,7 +5,7 @@ const disbut = require('discord-buttons')(client);
 // Bot Laving'e aittir.
 // Çalan orospu çocugudur.
 // 12-16 , 26 , 61. satırları doldurmanız yeterlidir.
-// Yardım almak için Laving#1899 ekleyebilirsiniz.
+// Yardım almak için Laving#1743 ekleyebilirsiniz.
 // Ayrıca botta yapıyorum discorddan ekleyerek ulaşabilirsiniz.
 // İyi eğlenceler.
 
