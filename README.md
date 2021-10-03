@@ -28,5 +28,5 @@ client.on("ready", async () => {
 
 * Bot %100 şahsıma aittir ve çalma durumunda direk telif haklarına başvurulucaktır. 
 
-* Yardım almak için Laving#1899 ekleyebililirsiniz.
+* Yardım almak için Laving#1743 ekleyebililirsiniz.
 * Ayrıca botta yapıyorum discorddan ekleyerek ulaşabilirsiniz. İyi Eğlenceler!
