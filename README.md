@@ -1,32 +1,22 @@
-## Button System Kurulum
+# Içerikler
+ Buradan botun içerisinde olan tüm özellikleri görebilirsiniz. Buradaki özelliklerin yanında tik olanlar kullanılabilir durumda olanlar, olmayanlar ise yakın gelecekte gelecek olanlardır.
 
-```js
-let config = {
-"vk": "Vampir Köylü Rol ID",
-"gartic": "Gartic Rol ID",
-"dc": "Doğruluk Cesaretlik Rol ID",
-"botOwner": "Bot Yapımcısı Rol ID",
-"token": "Burada token işte?"
-};
+ - [x] **Rol Alma Sistemi (buttons-system)**
+   * Sunucuda button ile rol alma sistemi çalıştırır.
+     * `.buttons-system`
+ - [x] **Yapılması Gerekenler;**
+     * `Modül Yükleme`
+       * Öncelikle modüllerimizi `npm i {modüladı}` şeklinde yüklüyoruz.
+     * `Bot ayarları`
+       * Daha sonrasında `ayarlar.json` dosyasına girip `lavingSunucuName` `lavingToken` `lavingPrefix` `lavingSahip` `lavingBotStatus` `lavingSesKanalı` `lavingEtkinlikKatılımcısı` `lavingÇekilişKatılımcısı` alanlarını dolduruyoruz.
+     * `Botu Çalıştırma`
+       * Son olarak botu çalıştırmak için dosyalarımıza girip `shift` + `sağtık` yapıyoruz ve komut istemcisini çalıştırıyoruz. Ardından `node laving.js` veya `node .` şeklinde botumuzu çalıştabiliriz.
+  - [X] **Önemli Bilgiler;** 
+    * `Hatırlatma;`
+      * Eğer botta hata çıkarsa `Laving#0001` adresinden ulaşarak destek alabilirsiniz.
+      * Bot %100 şahsıma aittir ve çalma durumunda direk telif haklarına başvurulucaktır.
+      * 25 Star gelirse çok daha gelişmiş ve güzel hali gelicektir.
+      * Star ve Fork atarak destek olabilirsiniz.
 
-``` 
- * Bu kısımları doldurduktan sonra artık sıra bu kısımda;
-
-```js 
-client.on("ready", async () => {
-    client.user.setPresence({ activity: { name: "• Laving ❤️ " }, status: "online" });
-  });  
-  
-  client.on('ready', ()=>{
-    client.channels.cache.get('SES KANALI ID ').join()
-    })
-```
-
-* Bu kısımlarda dolduktan sonra botumuz hazır hale gelecektir artık yapmamız gerekenler çok kolay! Konsola girip modülleri indirdikten sonra `node lavingbutton` komutuyla botu çalıştırabilirsiniz.
-
-## Ayrıca;
-
-* Bot %100 şahsıma aittir ve çalma durumunda direk telif haklarına başvurulucaktır. 
-
-* Yardım almak için Laving#0001 ekleyebililirsiniz.
-* Ayrıca botta yapıyorum discorddan ekleyerek ulaşabilirsiniz. İyi Eğlenceler!
+  - [X] **GELİYOR..**
+  - Arkadaşlar https://github.com/thelaving/laving-advancedmoderation bu projeye 30 star gelirse çok güzel bir moderation bot gelicek repoya star ve fork atmayı unutmayın iyi kodlamalar.
