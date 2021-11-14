@@ -13,7 +13,7 @@
        * Son olarak botu çalıştırmak için dosyalarımıza girip `shift` + `sağtık` yapıyoruz ve komut istemcisini çalıştırıyoruz. Ardından `node laving.js` veya `node .` şeklinde botumuzu çalıştabiliriz.
   - [X] **Önemli Bilgiler;** 
     * `Hatırlatma;`
-      * Eğer botta hata çıkarsa `Laving#0001` adresinden ulaşarak destek alabilirsiniz.
+      * Eğer botta hata çıkarsa `Laving Salvatore.#0001` adresinden ulaşarak destek alabilirsiniz.
       * Bot %100 şahsıma aittir ve çalma durumunda direk telif haklarına başvurulucaktır.
       * 25 Star gelirse çok daha gelişmiş ve güzel hali gelicektir.
       * Star ve Fork atarak destek olabilirsiniz.
